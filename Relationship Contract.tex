@@ -1,0 +1,80 @@
+% !TEX program = xelatex
+
+\documentclass[a4paper,12pt]{article} % The default font size is 12pt on A4 paper, change to 'usletter' for US Letter paper and adjust margins in structure.tex
+
+\input{structure.tex} % Input the structure.tex file which specifies the document layout and style
+
+%----------------------------------------------------------------------------------------
+%	DYNAMIC CONTRACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+% Your name and company name
+\newcommand{\YourName}{[Your name]}
+\newcommand{\CompanyName}{[Company name]}
+
+% Your address
+\newcommand{\AddressLineOne}{[Address]}
+\newcommand{\AddressLineTwo}{[Address]}
+
+% Your email address
+\newcommand{\YourEmail}{[Your email]}
+
+% The client's name
+\newcommand{\ClientName}{[Client name]}
+
+% The delivery date for specifications and completion date for the project
+\newcommand{\DeliveryDate}{[date]}
+\newcommand{\CompletionDate}{[date]}
+
+% The hourly rate
+\newcommand{\HourlyRate}{\$25}
+
+% Payee's information
+\newcommand{\PayeeName}{[Payee Name]}
+\newcommand{\PaymentAddressLineOne}{[Adress]}
+\newcommand{\PaymentAddressLineTwo}{[Adress]}
+\newcommand{\PaymentAddressLineThree}{[Adress]}
+\title{Relationship Contract}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{titlepage}
+
+\vspace*{\fill} % Add whitespace above to center the title page content
+
+\begin{center}
+
+{\LARGE Relationship Contract}\\ [1.5cm]
+
+Date: \today\\[40pt]
+
+\end{center}
+
+This contract is between $\qquad\qquad\qquad\qquad\qquad$ and\\[20pt]
+
+Items:
+
+\begin{itemize}
+    \item We are committed to a healthy relationship.
+    \item We take full responsibilities for our own health, both physical and mental.
+    \item We agree to respect each other's privacy and freedom.
+    \item Any one of us can suspend our relationship upon notifying the other if felt necessary.
+    \item We agree to remain neutral or friendly to each other even upon horrible events such as a break up.
+\end{itemize}
+
+
+
+\vspace*{\fill} % Add whitespace below to center the title page content
+
+$\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad$Signature:
+
+\end{titlepage}
+
+
+\end{document}
